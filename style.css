@@ -61,3 +61,21 @@ button{
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Bitter', serif;
 }
+
+@media (max-width: 450px) {
+    h1{
+        font-size: 30px;
+    }
+    .content{
+        width: 70vh;
+    }
+    .quote{
+        font-size: 20px;
+    }
+    .speaker{
+        font-size: 1.5em;
+    }
+    button{
+        font-size: 15px;
+    }
+}
